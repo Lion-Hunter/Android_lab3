@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="to_second">To second</string>
+    <string name="to_second1">To second (with flag)</string>
+    <string name="to_first">To first</string>
+    <string name="to_third">To third</string>
+    <string name="about">About</string>
+    <string name="first_activity">First Activity</string>
+    <string name="second_activity">Second activity</string>
+    <string name="back">Back</string>
+    <string name="third_activity">Third activity</string>
+    <string name="forth_activity">Forth activity</string>
+    <string name="to_forth">To forth (with flag)</string>
+</resources>

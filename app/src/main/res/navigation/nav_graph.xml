@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dest_1">
+    <fragment
+        android:id="@+id/dest_1"
+        android:name="com.example.lab3.task5.First"
+        android:label="task5_1"
+        tools:layout="@layout/task5_1">
+        <action
+            android:id="@+id/action_first_to_second"
+            app:destination="@id/dest_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/dest_2"
+        android:name="com.example.lab3.task5.Second"
+        android:label="task5_2"
+        tools:layout="@layout/task5_2">
+        <action
+            android:id="@+id/action_second_to_third"
+            app:destination="@id/dest_3" />
+        <action
+            android:id="@+id/action_second_to_forth"
+            app:destination="@id/dest_4" />
+    </fragment>
+    <fragment
+        android:id="@+id/dest_3"
+        android:name="com.example.lab3.task5.Third"
+        android:label="task5_3"
+        tools:layout="@layout/task5_3">
+        <action
+            android:id="@+id/action_third_to_forth"
+            app:destination="@id/dest_4" />
+    </fragment>
+    <fragment
+        android:id="@+id/dest_4"
+        android:name="com.example.lab3.task5.Forth"
+        android:label="task5_4"
+        tools:layout="@layout/task5_4">
+        <action
+            android:id="@+id/action_forth_to_first1"
+            app:destination="@id/dest_1" />
+    </fragment>
+</navigation>
