@@ -8,6 +8,8 @@ import android.view.MenuItem
 import com.example.lab3.R
 import com.example.lab3.databinding.Task22Binding
 
+const val TO_THIRD = 1
+
 class Second: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
